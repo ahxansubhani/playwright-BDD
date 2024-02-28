@@ -1,0 +1,11 @@
+node_modules/
+/playwright-report/
+/playwright/.cache/
+test-results/
+@rerun.txt
+/credentials.json
+/token.json
+test/helpers/environment/.env.STAGING
+test/helpers/environment/.env.QA
+test/helpers/environment/.env.SC
+test/helpers/environment/.env.PROD
