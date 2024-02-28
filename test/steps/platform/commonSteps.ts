@@ -1,5 +1,5 @@
 import { When, Then, DataTable, Given } from "@cucumber/cucumber";
-import { Base, baseInstance } from "../../helpers/BaseClass";
+import { baseInstance } from "../../helpers/BaseClass";
 import * as assert from "assert";
 import { verifyCSVFileContent } from "../../helpers/util/excel_csv";
 import { getEmailMessageSubject } from "../../helpers/util/mailtrap";

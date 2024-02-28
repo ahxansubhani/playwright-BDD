@@ -16,7 +16,6 @@ import { createLogger } from "winston";
 import { options } from "../helpers/util/logger";
 import { CustomWorld } from "./customWorld";
 import LoginPage from "../pages/platform/loginPage";
-import { cleanInbox } from "./util/mailtrap";
 
 let browser: Browser;
 let browserContext: BrowserContext;

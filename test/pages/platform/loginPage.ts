@@ -1,6 +1,5 @@
 import { BaseClass } from "../../helpers/BaseClass";
 import { getUserDetails } from "../../helpers/jsonHelper";
-import { XPathBuilder } from "../../helpers/util/xpathBuilder";
 import { elements } from "../../xpath/platform/loginPageElements";
 
 export default class LoginPage {

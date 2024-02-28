@@ -8,12 +8,6 @@ async function initializeMailtrap(): Promise<MailtrapClient> {
 	return new MailtrapClient({ token: TOKEN, testInboxId: TEST_INBOX_ID, accountId: ACCOUNT_ID });
 }
 
-// Function to initialize Mailtrap projects client
-async function getProjects() {
-	const client = await initializeMailtrap();
-	return client.testing.projects;
-}
-
 // Function to initialize Mailtrap inboxes client
 async function getInboxes() {
 	const client = await initializeMailtrap();

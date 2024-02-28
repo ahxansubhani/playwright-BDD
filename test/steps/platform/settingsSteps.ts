@@ -2,7 +2,6 @@ import { When, DataTable } from "@cucumber/cucumber";
 import SettingsPage from "../../pages/platform/settingsPage";
 import { baseInstance } from "../../helpers/BaseClass";
 import { generateRandomUserData, UserData } from "../../helpers/util/random";
-import { getEmailMessageSubject } from "../../helpers/util/mailtrap";
 
 const settingsPage: SettingsPage = new SettingsPage(baseInstance);
 
