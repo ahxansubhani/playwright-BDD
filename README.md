@@ -11,8 +11,6 @@ Cyborg is a powerful BDD automation framework built on top of Playwright, design
 - Running tests
 - CLI variables
 - Structure
-- Adding new features
-- Xpath Builder
 - Reporting
 - CodeGen
 - Debugging
